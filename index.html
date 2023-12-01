@@ -467,8 +467,12 @@
         <div class="divider"></div>
         <div class="clnt-p">Drop us a line with your enquiry and we’ll be in touch ASAP</div>
         <div class="form-block w-form">
-          <form id="wf-form-contact-form" name="wf-form-contact-form" data-name="contact form" method="get" data-wf-page-id="6566f437308dac767189f487" data-wf-element-id="65f5208e-d0b9-47d4-ada0-68c5c03406dc"><input type="text" class="input w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Full Name" id="name"><input type="email" class="input w-input" maxlength="256" name="email" data-name="Email" placeholder="Your Email Address" id="email" required=""><textarea required="" placeholder="Your Message" maxlength="5000" id="message" name="message" data-name="message" class="message w-input"></textarea>
-            <div class="btn-full-holder"><input type="submit" value="Contact Us" data-wait="Please wait..." class="submit-button w-button"></div>
+          <form name="contact-form" method="POST" netlify action="#">
+            <input type="text" class="input w-input" maxlength="256" name="name"  placeholder="Your Full Name" id="name">
+            <input type="email" class="input w-input" maxlength="256" name="email"  placeholder="Your Email Address" id="email" required="">
+            <textarea required="" placeholder="Your Message" maxlength="5000" id="message" name="message"  class="message w-input"></textarea>
+            <div class="btn-full-holder">
+              <input type="submit" value="Contact Us"  class="submit-button w-button"></div>
           </form>
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
