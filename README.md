@@ -1,2 +1,0 @@
-# vibrant-sorcery
-Vibrant Sorcery
